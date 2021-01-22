@@ -8,6 +8,6 @@
         <li>Email: {{ request.user.email }}</li>
     </ul>
 
-    <a href="{% url 'logout' %}">Log out</a>
+    <a href="{% url 'users:logout' %}">Log out</a>
     
 {% endblock %}
